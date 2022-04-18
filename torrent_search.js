@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Torrent Search
 // @namespace    https://space.bilibili.com/356927809/
+// @source       https://github.com/LuckyPuppy514/tampermonkey/blob/main/torrent_search.js
 // @version      1.0
-// @description  search torrent from config url by google
+// @description  search torrent from config url base on google site
 // @author       LuckyPuppy514
 // @connect      google.com
 // @connect      google.com.hk

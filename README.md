@@ -1,14 +1,10 @@
 # tampermonkey
-## This is LuckyPuppy514's tampermonkey repo.
+This is LuckyPuppy514's tampermonkey repo.
 
-# Torrent Search
-## This is a google tampermonkey plugin base on google site search.
-## 这是一个基于google site搜索的油猴插件。
+# Site Search
+This is a script enable us to config type-url to use site search more convenient. 
+> 这是一个可以让我们通过配置类型-网址，使得google site搜索更方便的脚本。
+![image](https://user-images.githubusercontent.com/53246532/163907163-b98654c0-9902-4294-8d8a-54f8a2cb5647.png)
 
-# function
-# 功能
-## 1.search torrent from config url.(default config is which my frequently-used url)
-## 1.通过指定网址查询种子。（默认是我经常使用的网址）
 
-![image](https://user-images.githubusercontent.com/53246532/163838613-b1e6d5af-c254-4592-922c-9f20f30b7076.png)
 

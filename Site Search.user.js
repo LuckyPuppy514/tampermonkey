@@ -2,7 +2,7 @@
 // @name         Site Search
 // @namespace    https://space.bilibili.com/356927809/
 // @source       https://github.com/LuckyPuppy514/tampermonkey/blob/main/Site Search.user.js
-// @version      1.0
+// @version      1.1
 // @description  This is a script enable us to config type-url to use site search more convenient. 这是一个可以让我们通过配置类型-网址，使得google site搜索更方便的脚本。
 // @author       LuckyPuppy514
 // @connect      google.com
@@ -50,7 +50,7 @@
     // create type selector 创建类型选择器
     let typeSelect = document.createElement('div');
     typeSelect.style = 'border: none; padding: 8px 2px;';
-    var typeSelectHtml = "<select id='typeSelect' style='background-color: rgb(244,242,239); border: 1px solid rgb(244,242,239); border-radius: 3px; padding: 5px 0px; text-align: left; text-decoration: none; display: inline-block;'>"
+    var typeSelectHtml = "<select id='typeSelect' style='cursor:pointer; background-color: rgb(245,245,239); border: 1px solid rgb(244,242,239); border-radius: 3px; padding: 5px 0px; text-align: left; text-decoration: none; display: inline-block;'>"
     for(let key of typeMap.keys()){
         typeSelectHtml = typeSelectHtml + '<option value = ' + key + '>' + key + '</option>';
     }
@@ -75,7 +75,7 @@
     // create site search button 创建site搜索按钮
     let ssButton = document.createElement('div');
     ssButton.style = "border: none; padding: 8px 2px;";
-    ssButton.innerHTML = "<input value='Site Search' aria-label='Site Search' name='ssButton' role='button' tabindex='0' type='submit' style='background-color: rgb(244,242,239); border: 1px solid rgb(244,242,239); border-radius: 3px; padding: 5px 5px; text-align: center; text-decoration: none; display: inline-block;'>";
+    ssButton.innerHTML = "<input value='Site Search' aria-label='Site Search' name='ssButton' role='button' tabindex='0' type='submit' style='cursor:pointer; background-color: rgb(245,245,239); border: 1px solid rgb(244,242,239); border-radius: 3px; padding: 5px 5px; text-align: center; text-decoration: none; display: inline-block;'>";
     // site search button event site搜索按钮事件
     ssButton.onclick =function(){
         // if input value length > 0 then search
